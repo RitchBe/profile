@@ -1,0 +1,91 @@
+body {
+  /*background: #9e7682;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  background-image: linear-gradient(to top, #FFA76A 0%, #fef9d7 100%);
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.box-content {
+  background: white;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+-webkit-box-shadow: 3px 2px 25px -6px rgba(214,162,19,0.5);
+-moz-box-shadow: 3px 2px 25px -6px rgba(214,162,19,0.5);
+box-shadow: 3px 2px 25px -6px rgba(214,162,19,0.5);}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.profil-picture {
+  width: 250px;
+  border-radius: 150px;
+  border: 5px solid #ccc;
+}
+.profil-picture:hover {
+  box-shadow: 0px 0px 20px #FFA76A;
+  background: #FF8F30;
+  transition: 0.5s;
+  border-color: #FFA76A;
+}
+.movie-picture {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+.list-inline li i {
+  font-size: 100px ;
+}
+.list-inline li i:hover {
+  -shadow: 0px 0px 20px #FFA76A;
+  color: #FF8F30;
+  transition: 0.5s;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px 75px;
+
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a.github {
+  background: #ccc;
+  /*opacity: 0.5;*/
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fef9d7;
+  font-size: 150%;
+  position: relative;
+  top: 15px;
+}
+
+a.github:hover {
+  box-shadow: 0px 0px 20px #FFA76A;
+  background: #FF8F30;
+  transition: 0.5s;
+  opacity: 1
+}
+p {
+  font-size: 120%;
+}
