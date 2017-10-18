@@ -1,11 +1,30 @@
 body {
     /*background: #9e7682;*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 300;
     color: #7d7d7d;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.6em;
     background-image: linear-gradient(to top, #FFA76A 0%, #fef9d7 100%);
+}
+
+h1 {
+  font-family: Manuale, serif;
+  font-weight: lighter;
+  font-size: 250%;
+}
+
+h3 {
+  font-family: Manuale, serif;
+  font-weight:  lighter;
+  font-size: 175%;
+}
+
+h2 {
+  font-family: Manuale, serif;
+  font-weight:  lighter;
+  font-size: 200%;
+
 }
 
 .container {
@@ -13,11 +32,6 @@ body {
     margin: 30px auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1300px) {
-    .container {
-        width: 500px;
-    }
-}
 
 
 .box-content {
@@ -25,6 +39,10 @@ body {
     padding: 50px 20px;
     margin-bottom: 20px;
     border-radius: 4px;
+/*    background-image: url("images/51.jpg");
+    background-position: right, bottom;
+    background-size: 100px 80px;
+    background-repeat: no-repeat;*/
     -webkit-box-shadow: 3px 2px 25px -6px rgba(214, 162, 19, 0.5);
     -moz-box-shadow: 3px 2px 25px -6px rgba(214, 162, 19, 0.5);
     box-shadow: 3px 2px 25px -6px rgba(214, 162, 19, 0.5);
