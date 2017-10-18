@@ -7,8 +7,15 @@
     <title>Richard Houet | LeWagon</title>
   </head>
   <body>
-    <div class="container">
-      <div class="box-content text-center">
+    <div id="sidebar">
+      <a href="#summary"><i class="fa fa-space-shuttle" aria-hidden="true">
+</i></a>
+      <a href="#favorite-movies"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+      <a href="#help"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="container" id="page-content">
+      <div class="box-content text-center" id="summary">
         <a href="images/profilpic.jpg" target="_blanc">
         <img class="profil-picture" src="images/profilpic.jpg" alt="Profil pictures">
       </a>
@@ -26,7 +33,7 @@
           <!--     <li><i class="fa fa-envelope" aria-hidden="true">
           Email</i></li> -->
         </div>
-        <div class="box-content text-center">
+        <div class="box-content text-center" id="favorite-movies">
         </ul>
         <h2>My favorite movies</h2>
         <table>
@@ -61,7 +68,7 @@
           </tbody>
         </table>
       </div>
-      <div class="box-content text-center">
+      <div class="box-content text-center" id="help">
         <h2>About this page</h2>
         <p>This page has been coded during the FullStack program @LeWagon.</p>
       </div>
